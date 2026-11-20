@@ -2,7 +2,8 @@ import json, queue, subprocess, sys, threading, time, os
 import sounddevice as sd
 from vosk import Model, KaldiRecognizer
 
-PROFANITY = {"fuck","shit","ass","bitch","cunt","dick","piss","bastard","crap","damn","dickhead","douche","douchebag","fucker","fucking","motherfucker","motherfucking"}
+PROFANITY = {"fuck","shit","ass","bitch","cunt","dick","piss","bastard","crap","damn","dickhead","douche","douchebag","fucker","fucking","motherfucker","motherfucking","bitchass","kite","nigga"
+            ,"what the fuck","what the heck","incel"}
 MODEL = "vosk-model-small-en-us-0.15"
 
 def log(msg):
